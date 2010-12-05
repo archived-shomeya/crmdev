@@ -1,0 +1,41 @@
+; $Id$
+name = Drupal CRM
+description = Install standard Drupal plus the CRM modules and dependencies.
+core = 7.x
+
+; Install the modules from the standard profile.
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = overlay
+dependencies[] = toolbar
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = simpletest
+
+; Install other contributed modules first.
+dependencies[] = addressfield
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = entity_metadata
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = views
+dependencies[] = views_ui
+
+files[] = crmdev.profile
+files[] = crmdev.install
