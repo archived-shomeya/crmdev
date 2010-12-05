@@ -25,9 +25,9 @@ if [ -f crmdev.make ]; then
     echo "Building CRM Dev distribution..."
 
 MAKE=$(cat <<EOF
-core = "6.x"\n
+core = "7.x"\n
 api = 2\n
-projects[drupal][version] = "6.19"\n
+projects[drupal][version] = "7.0-rc1"\n
 projects[crmdev][type] = "profile"\n
 projects[crmdev][download][type] = "git"\n
 projects[crmdev][download][url] = "http://github.com/shomeya/crmdev.git"\n
