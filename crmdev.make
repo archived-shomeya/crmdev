@@ -1,6 +1,12 @@
 api = 2
 core = 7.x
 
+projects[ctools][subdir] = contrib
+projects[ctools][type] = module
+projects[ctools][download][type] = cvs
+projects[ctools][download][module] = contributions/modules/ctools
+projects[ctools][download][revision] = "HEAD"
+
 projects[entity][subdir] = contrib
 projects[entity][type] = module
 projects[entity][download][type] = git
@@ -16,11 +22,11 @@ projects[rules][download][revision] = "DRUPAL-7--2"
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-alpha1
 
-projects[ctools][subdir] = contrib
-projects[ctools][type] = module
-projects[ctools][download][type] = cvs
-projects[ctools][download][module] = contributions/modules/ctools
-projects[ctools][download][revision] = "HEAD"
+projects[relation][subdir] = contrib
+projects[relation][type] = module
+projects[relation][download][type] = cvs
+projects[relation][download][module] = contributions/modules/relation
+projects[relation][download][revision] = "HEAD"
 
 projects[views][subdir] = contrib
 projects[views][type] = module
